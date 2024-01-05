@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.main-privacy-content {
+    color: black;
+    text-align: left;
+    padding: 2rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 4rem;
+  
+  }
+  .Introduction{
+    font-size: 25px;
+  }
+  .content-container {
+    display: flex;
+  }
+  .privacy-policy-heading{
+    line-height: 3rem;
+    font-size: 40px;
+  }
+  .sidebar {
+    flex: 1; 
+    padding-right: 1em; 
+    padding-left: 4rem;
+  }
+  
+  .main-content {
+    margin-top: 2rem;
+    flex: 4; 
+    padding-right: 10rem;
+    max-width:50.75rem; 
+    text-align: left;
+    max-height: auto;
+  }
+  
+  .privacy-policy-subheading{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  h3{
+    margin-top: 4rem;
+    font-weight: 800;
+  }
+  h2{
+    font-weight: 300;
+  }
+  p{
+    line-height: 31px;
+  }
+  h4{
+    font-weight: bold;
+  }
+  .data-retention{
+    margin-bottom: 12rem;
+  }
+  @media (max-width: 768px) {
+    .content-container {
+      flex-direction: column;
+    }
+    .main-content {
+        margin-top: 2rem;
+        flex: 4; 
+        padding-right: 2rem;
+        max-width:60rem; 
+        text-align: left;
+        max-height: auto;
+      }
+      .nav-links-pp{
+        display: block;
+        font-size: auto;
+      }
+  }
+  li{
+    line-height: 28px;
+  }
