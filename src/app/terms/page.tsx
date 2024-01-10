@@ -17,15 +17,6 @@ const Terms = () => {
                         use of AI Minds’s Website/Mobile apps.
                     </p>
                     <br></br>
-                    <p>AI Minds is located at:</p>
-                    <p className="address">
-                        AI Minds
-                        <br></br>Nexino Labs private limited<br></br>
-                        Tower 1, Seawoods Grand Central, Sector 40<br></br>
-                        Seawoods Railway Station 11th Floor<br></br>
-                        Navi Mumbai, Maharashtra 400706<br></br>
-                    </p>
-                    <br></br>
                     <p className="note">
                         <b>
                             {" "}
