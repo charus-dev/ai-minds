@@ -514,9 +514,10 @@ const Terms = () => {
                 </div>
             </div>
         </div>
-         <footer className="footer" style={{ textAlign: 'center', marginTop: '20px' }}>
-          <p> 2024 Rightsol. All rights reserved.</p>
-         </footer>
+        <footer className="footer" style={{ textAlign: "center", marginTop: "20px" }}>
+          <p>&copy; 2024 Rightsol. All rights reserved.</p>
+        </footer>
+
     )
 }
 
