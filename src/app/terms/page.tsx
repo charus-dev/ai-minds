@@ -21,12 +21,14 @@ const Terms = () => {
                      <p>AI Minds is located at:</p>
                      <p className="address">
                       AI Minds
-                       <br></br>Nexino Labs private limited<br></br>
-                        Tower 1, Seawoods Grand Central, Sector 40<br></br>
-                        Seawoods Railway Station 11th Floor<br></br>
-                        Navi Mumbai, Maharashtra 400706<br></br>
-                        </p>
+                       <br></br>  
+                        AI Minds<br></br>
+                        Right Sol Private Limited<br></br>
+                        Flat No. 603, Tulsi Pooja CHS, Above Axis Bank, Sector- 1,
+                        New Panvel, Panvel, Raigarh, Maharashtra, India, 410206
                         <br></br>
+                        </p>
+                          
                     <p className="note">
                         <b>
                             {" "}
