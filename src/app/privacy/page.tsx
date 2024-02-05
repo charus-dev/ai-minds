@@ -2,6 +2,7 @@
 
 const Privacy = () => {
     return (
+        <>
         <div className="main-privacy-content px-32 py-16">
             <div className="content-container">
                 <div className="sidebar">
@@ -553,6 +554,10 @@ const Privacy = () => {
                 </div>
             </div>
         </div>
+         <footer style={{ textAlign: "center", marginTop: "20px" }}>
+          <p>&copy; 2024 Rightsol. All rights reserved.</p>
+        </footer>
+        </>
     )
 }
 
