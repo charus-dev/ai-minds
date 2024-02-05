@@ -20,7 +20,6 @@ const Terms = () => {
                     <br></br>
                      <p>AI Minds is located at:</p>
                      <p className="address">
-                      AI Minds
                        <br></br>  
                         AI Minds<br></br>
                         Right Sol Private Limited<br></br>
