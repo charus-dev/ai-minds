@@ -2,7 +2,8 @@
 
 const Terms = () => {
     return (
-        <div className="main-privacy-content px-32 py-16">
+    <>        
+    <div className="main-privacy-content px-32 py-16">
             <div className="content-container">
                 <div className="sidebar">
                     <h1 className="privacy-policy-heading">Terms</h1>
@@ -517,7 +518,7 @@ const Terms = () => {
         <footer style={{ textAlign: "center", marginTop: "20px" }}>
           <p>&copy; 2024 Rightsol. All rights reserved.</p>
         </footer>
-
+    </>
     )
 }
 
