@@ -79,11 +79,10 @@
         font-size: auto;
       }
       .Footer {
-      margin-top: auto;
-      bottom: 0;
-      width: 100%;
-      padding: 10px;
-    }
+        position: relative; 
+        bottom: 0;
+        width: 100%;
+      }
   }
   li{
     line-height: 28px;
