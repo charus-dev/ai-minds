@@ -40,6 +40,9 @@ export default function Home() {
           </div>
         </div>
       </main>
+     <footer style={{ textAlign: "center", marginTop: "20px" }}>
+          <p>&copy; 2024 Rightsol. All rights reserved.</p>
+        </footer>
     </>
   )
 }
