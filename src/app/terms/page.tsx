@@ -19,8 +19,7 @@ const Terms = () => {
                     </p>
                     <br></br>
                      <p>AI Minds is located at:</p>
-                     <p className="address">
-                       <br></br>  
+                     <p className="address"> 
                         AI Minds<br></br>
                         Right Sol Private Limited<br></br>
                         Flat No. 603, Tulsi Pooja CHS, Above Axis Bank, Sector- 1,
