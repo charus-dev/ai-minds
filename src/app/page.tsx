@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className='Footer' style={{ textAlign: "center", marginTop: "auto"  }}>
+      <footer className='footer' style={{ textAlign: "center", marginTop: "auto"  }}>
           <p>&copy; 2024 Rightsol. All rights reserved.</p>
       </footer>
     </>
