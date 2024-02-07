@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <main className="grid grid-cols-1 lg:grid-cols-2 justify-center bg-white h-screen text-primary">
-        <div className="flex flex-col items-center pb-0 lg:pb-4 py-4 lg:py-8 justify-center w-full lg:w-50 gap-8 lg:gap-16 order-2 lg:order-1">
+        <div className="relative flex flex-col items-center pb-0 lg:pb-4 py-4 lg:py-8 justify-center w-full lg:w-50 gap-8 lg:gap-16 order-2 lg:order-1">
           <Image className='absolute top-4 left-4 lg:top-8 lg:left-8 min-w-12 lg:min-w-[5%] z-50' src={'/logo.webp'} alt='AI Minds' width={35} height={35} />
           <h1 className='text-5xl lg:text-7xl text-center lg:mx-[10%] font-bold lg:mt-24 text-blue px-4 lg:px-0'>Welcome to <br /> AI Minds!</h1>
           <h3 className='text-2xl lg:text-4xl text-center lg:mx-[20%] px-4 lg:px-0'>India's #1 Quiz by IIT-Kanpur <br /> for Classes 4 to 10</h3>
@@ -19,6 +19,8 @@ export default function Home() {
             <Link href="/terms" className='text-center w-full text-blue font-bold px-4 lg:px-0 text-3xl border-r border-border pe-5 lg:ms-32'>Terms</Link>
             <Link href="/privacy" className='text-center w-full text-blue font-bold px-4 lg:px-0 text-3xl ms-4 lg:ms-0 lg:me-32'>Privacy</Link>
           </div>
+
+          <small className='md:absolute bottom-0 pb-4'> &copy;  2024 Rightsol. All rights reserved. </small>
         </div>
         <div className="flex flex-col items-center justify-between bg-secondary-100 lg:bg-secondary w-full lg:w-50 lg:py-8 order-1 lg:order-2">
           <div className='w-full min-h-96 mt-16 lg:mt-none lg:min-h-none h-full lg:h-3/5 relative p-4 lg:p-0 lg:bg-none'>
@@ -40,9 +42,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className='footer' style={{ textAlign: "center", marginTop: "auto"  }}>
-          <p>&copy; 2024 Rightsol. All rights reserved.</p>
-      </footer>
     </>
   )
 }
