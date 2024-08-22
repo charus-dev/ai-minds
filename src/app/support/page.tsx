@@ -15,8 +15,7 @@ const Privacy = () => {
                     At AI Minds, we believe that learning should be an empowering experience, and we're committed to supporting you every step of the way. 
                     </p>
                     <p className="rules">
-                    You can contact us via email at xyz@example.com. Our support team is available [mention your support hours, e.g., 24/7, or specific hours], and we aim to respond to all inquiries as quickly as 
-                    possible, typically within [mention your response time, e.g., 24 hours].
+                      You can contact us via email at aiminds@iitaim.com. You can expect a reply in 24 hours.
                     </p>
                     <h3>How to Get in Touch</h3>
                     <p className="rules">
